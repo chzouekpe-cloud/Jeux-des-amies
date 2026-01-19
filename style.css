@@ -1,0 +1,84 @@
+body {
+    background: linear-gradient(135deg, #ff9a9e, #fecfef,#fbc2e);
+    font-family: "Poppins",Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.quiz-container {
+    background: #fff5f0;
+    padding: 30px;
+    border-radius: 20px;
+    text-align: center;
+    width: 360px;
+    box-shadow: 0 15px 30px rgba(255,105,135,0.3);
+}
+
+button {
+    display: block;
+    width: 100%;
+    margin: 8px 0;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #ff6f91;
+    color: white;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #ff4f7b;
+}
+#reponses button {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 10px;
+    background: linear-gradient(135deg, #ff7a7a, #ffb347);
+    margin: 8px 0;
+    cursor: pointer;
+    transition: all 0.3s ease
+    font-size: 16px; 
+    border-raduis: 15px;
+    border: none;
+    color: white;
+    
+    
+}
+
+#reponses img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}  
+#reponses img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+#reponses button:hover img {
+    transform: scale(1.2);
+    transition: 0.3s;
+}
+h1 {
+    color: #ff5c8a;
+    margin-bottom: 10px;
+}
+
+h2 {
+    color: #6b2c2c;
+}
+#reposone button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(255, 120, 120, 0.4);
+}
+p{
+    margin-top: 15px;
+    font-weight: bold;
+    color: #ff5c8a;
+}

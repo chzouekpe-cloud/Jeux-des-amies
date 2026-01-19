@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Jeux des Meilleures Amies 💖</title>
+    <link rel="stylesheet" href=style.css>
+</head>
+<body>
+
+<div class="quiz-container">
+    <h1>Jeux des 4 Amies </h1>
+
+    <h2 id="question"></h2>
+
+    <div id="reponses">
+        <button type="bouton" onclick="verifierReponse(0)">
+            <img src="Chantal.jpg"alt="Chantal">
+            <span>Chantal</span>
+        </button>
+        
+        <button type="bouton" onclick="verifierReponse(1)">
+            <img src="Rinaldi.jpg"alt="Rinaldi">
+            <span>Rinaldi</span>
+        </button>
+        
+        <button type="bouton" onclick="verifierReponse(2)"> 
+            <img src="Pascale.jpg"alt="Pascale">
+            <span>Pascale</span>
+        </button>
+        
+        <button type="bouton" onclick="verifierReponse(3)">
+            <img src="Majoie.jpg"alt="Majoie">
+            <span>Majoie</span>
+        </button>
+        
+    </div>
+
+    <p>Score : <span id="score">0</span></p>
+</div>
+
+<script src="script.js" defer></script>
+</body>
+</html>
